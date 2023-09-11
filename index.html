@@ -13,19 +13,17 @@
         <h1>My trip to London</h1>
 
         <!-- /title -->
-
-        <!-- imgs -->
-        <img src="img/pexels-bill-emrich-230794-0.jpg" alt="London eye panoramic img">
-        <img src="img/pexels-bill-emrich-230794-1.jpg" alt="thames during night panoramic img">
-        <img src="img/pexels-bill-emrich-230794-2.jpg" alt="big ben during night panoramic img">
-
+      <div>
+            <!-- imgs (hero) -->
+            <img src="img/pexels-bill-emrich-230794-0.jpg" alt="London eye panoramic img">
+            <img src="img/pexels-bill-emrich-230794-1.jpg" alt="thames during night panoramic img">
+            <img src="img/pexels-bill-emrich-230794-2.jpg" alt="big ben during night panoramic img">
+      </div>
 
         <!-- /imgs -->
-        <hr>
-
     </header>
     <!-- /header -->
-
+    <hr>
     <!-- main -->
     <main>
         <!-- spendings tab -->
@@ -34,8 +32,8 @@
                 <!-- tab header -->
                 <h2>My spendings</h2>
             
-                <thread>
-                    <!-- row -->
+                <thead>
+                    <!-- row h-->
                     <tr>
                         <th> Number </th>
                         <th> Description </th>
@@ -43,28 +41,25 @@
     
                     </tr>
 
-                </thread>
+                </thead>
                 <!-- tab body -->
-
+                <!-- row1 -->
                 <tbody>
-                     <!-- rows -->
                      <td> 1 </td>
                      <td> Plane Ticket </td>
                      <td> €120,00 </td>
 
                 </tbody>
-                
+                <!-- row2 -->
                 <tbody>
-                    <!-- row2 -->
                     <td> 1 </td>
                     <td> Plane Ticket </td>
                     <td> €120,00 </td>
 
                </tbody>
-
+               <!-- row3 -->
                <tbody>
 
-                    <!-- row3 -->
                     <td> 1 </td>
                     <td> Plane Ticket </td>
                     <td> €120,00 </td>
@@ -80,108 +75,88 @@
                     
                 </tr>
                </tfoot>
-
-
             </table>
              <!-- /spendings tab -->
-
-
 
         </section>
 
         <hr>
-
-        <!-- to-do list -->
-        
-        <div>
-            <h3>To do</h3>
-            <ul>
-                <li> Visit Tower of London &#x274C</li>
-                <li> Visit Greenwich &#9989 </li>
-                <li> Listening to buskers in covent garden &#9989 </li>
-                <li> Snacking on brit Fish&Chips &#x274C</li>
-
-            </ul>
-       
-        </div>
-
+        <!-- to-do list -->  
+        <section>
+                <h3>To do</h3>
+                <ul>
+                    <li> Visit Tower of London &cross;</li>
+                    <li> Visit Greenwich &check; </li>
+                    <li> Listening to buskers in covent garden &check; </li>
+                    <li> Snacking on brit Fish&Chips &&cross;</li>
+                </ul>       
+        </section>      
         <!-- /to-do list -->
-
         <hr>
-
         <!-- infos -->
-        <h3>Infos</h3>
-        <!-- nested list -->
-        <div>
-            <ol>
-                <li>
-                    Emergency numbers
+      <section>
+            <h3>Info</h3>
+            <!-- nested list -->
+                <ol>
+                    <li>
+                        Emergency numbers
 
-                    <ul style="list-style-type: circle;">
-                        <li> 
-                            <strong>999</strong> - London Ambulance Service
-                        </li>
+                        <ul style="list-style-type: circle;">
+                            <li> 
+                                <strong>999</strong> - London Ambulance Service
+                            </li>
+                            <li>
+                                <strong>101</strong> -  Metropolitan Police
+                            </li>
+                            <li>
+                                <strong>111</strong> -  NHS emergency medical care
+                            </li>
+                        </ul>                   
+                    </li>
+                    <li>
+                        Hotel
 
-                        <li>
-                            <strong>101</strong> -  Metropolitan Police
-                        </li>
+                        <ul style="list-style-type: circle;">
+                            <li>
+                                <strong>Hotel's name</strong> : Buckingham Palace
+                            </li>
+                            <li>
+                                <strong>Hotel address</strong> : Wesminster, London SW1A 1AA, UK
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Aereo
 
-                        <li>
-                            <strong>111</strong> -  NHS emergency medical care
-                        </li>
-                    </ul>
-                
-                </li>
-
-                <li>
-                    Hotel
-
-                    <ul style="list-style-type: circle;">
-                        <li>
-                            <strong>Hotel's name</strong> : Buckingham Palace
-                        </li>
-                        <li>
-                            <strong>Hotel address</strong> : Wesminster, London SW1A 1AA, UK
-                        </li>
-                    </ul>
-                </li>
-
-                <li>
-                    Aereo
-
-                    <ul style="list-style-type: circle;">
-                        <li>
-                            <strong> Outward Flight</strong> : YI234X at 9h30am from MXP
-                        </li>
-
-                        <li>
-                            <strong> Return Flight </strong> : YI236X at 6h30pm from LHR
-                        </li>
-                    </ul>
-                </li>
-            </ol>
-
-        </div>
-
+                        <ul style="list-style-type: circle;">
+                            <li>
+                                <strong> Outward Flight</strong> : YI234X at 9h30am from MXP
+                            </li>
+                            <li>
+                                <strong> Return Flight </strong> : YI236X at 6h30pm from LHR
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+      </section>
         <!-- /infos -->
         <hr>
-
-    </main>
-    <!-- /main     -->
-
-
-    <!-- footer -->
-    <footer>
-    <!-- photos -->
-
-    <h3>Photos</h3>
+        <section>
+                <!-- photos -->
+    <!-- questa si può mettere in un'altra sezione prima del footer -->
+        <h3>Photos</h3>
         <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg
         " alt="bridge-panoramic-london-photo">
         <img src="https://imgc.allpostersimages.com/img/posters/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg?artPerspective=n
         " alt="evening-bridge-thames">
+        </section>
+    </main>
+    <!-- /main     -->
 
+    <!-- footer -->
+    <footer>
+    <h6> Esercizio di Serena</h6>
     </footer>
-
     <!-- /footer -->
 </body>
 </html>
