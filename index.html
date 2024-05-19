@@ -1,162 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My trip to London</title>
+    <title>London Tours</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!-- header -->
-    <header>
-        <!-- title -->
-        <h1>My trip to London</h1>
-
-        <!-- /title -->
-      <div>
-            <!-- imgs (hero) -->
-            <img src="img/pexels-bill-emrich-230794-0.jpg" alt="London eye panoramic img">
-            <img src="img/pexels-bill-emrich-230794-1.jpg" alt="thames during night panoramic img">
-            <img src="img/pexels-bill-emrich-230794-2.jpg" alt="big ben during night panoramic img">
-      </div>
-
-        <!-- /imgs -->
+    <header class="header">
+        <div class="container">
+            <h1>Explore London</h1>
+            <p>Discover the beauty and history of London with our guided tours</p>
+        </div>
     </header>
     <!-- /header -->
-    <hr>
+
+    <!-- hero section -->
+    <section class="hero">
+        <div class="hero-images">
+            <img src="img/pexels-bill-emrich-230794-0.jpg" alt="London eye panoramic img">
+            <img src="img/pexels-bill-emrich-230794-1.jpg" alt="Thames during night panoramic img">
+            <img src="img/pexels-bill-emrich-230794-2.jpg" alt="Big Ben during night panoramic img">
+        </div>
+    </section>
+    <!-- /hero section -->
+
     <!-- main -->
     <main>
-        <!-- spendings tab -->
-        <section>
+        <!-- spendings section -->
+        <section class="spendings">
+            <h2>Tour Packages</h2>
             <table>
-                <!-- tab header -->
-                <h2>My spendings</h2>
-            
                 <thead>
-                    <!-- row h-->
                     <tr>
-                        <th> Number </th>
-                        <th> Description </th>
-                        <th> Cost </th>
-    
+                        <th>Number</th>
+                        <th>Description</th>
+                        <th>Cost</th>
                     </tr>
-
                 </thead>
-                <!-- tab body -->
-                <!-- row1 -->
                 <tbody>
-                     <td> 1 </td>
-                     <td> Plane Ticket </td>
-                     <td> €120,00 </td>
-
+                    <tr>
+                        <td>1</td>
+                        <td>Classic London Tour</td>
+                        <td>€120,00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Historic London Tour</td>
+                        <td>€150,00</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Nightlife London Tour</td>
+                        <td>€180,00</td>
+                    </tr>
                 </tbody>
-                <!-- row2 -->
-                <tbody>
-                    <td> 1 </td>
-                    <td> Plane Ticket </td>
-                    <td> €120,00 </td>
-
-               </tbody>
-               <!-- row3 -->
-               <tbody>
-
-                    <td> 1 </td>
-                    <td> Plane Ticket </td>
-                    <td> €120,00 </td>
-
-               </tbody>
-
-               <!-- tab footer -->
-               <tfoot>
-                <tr>
-                    <td coldspan="2">Total</td>
-                    <td></td>
-                    <td>€360,00</td>
-                    
-                </tr>
-               </tfoot>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Total</td>
+                        <td>€450,00</td>
+                    </tr>
+                </tfoot>
             </table>
-             <!-- /spendings tab -->
-
         </section>
+        <!-- /spendings section -->
 
-        <hr>
-        <!-- to-do list -->  
-        <section>
-                <h3>To do</h3>
-                <ul>
-                    <li> Visit Tower of London &cross;</li>
-                    <li> Visit Greenwich &check; </li>
-                    <li> Listening to buskers in covent garden &check; </li>
-                    <li> Snacking on brit Fish&Chips &&cross;</li>
-                </ul>       
-        </section>      
-        <!-- /to-do list -->
-        <hr>
-        <!-- infos -->
-      <section>
-            <h3>Info</h3>
-            <!-- nested list -->
-                <ol>
-                    <li>
-                        Emergency numbers
-
-                        <ul style="list-style-type: circle;">
-                            <li> 
-                                <strong>999</strong> - London Ambulance Service
-                            </li>
-                            <li>
-                                <strong>101</strong> -  Metropolitan Police
-                            </li>
-                            <li>
-                                <strong>111</strong> -  NHS emergency medical care
-                            </li>
-                        </ul>                   
-                    </li>
-                    <li>
-                        Hotel
-
-                        <ul style="list-style-type: circle;">
-                            <li>
-                                <strong>Hotel's name</strong> : Buckingham Palace
-                            </li>
-                            <li>
-                                <strong>Hotel address</strong> : Wesminster, London SW1A 1AA, UK
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        Aereo
-
-                        <ul style="list-style-type: circle;">
-                            <li>
-                                <strong> Outward Flight</strong> : YI234X at 9h30am from MXP
-                            </li>
-                            <li>
-                                <strong> Return Flight </strong> : YI236X at 6h30pm from LHR
-                            </li>
-                        </ul>
-                    </li>
-                </ol>
-      </section>
-        <!-- /infos -->
-        <hr>
-        <section>
-                <!-- photos -->
-    <!-- questa si può mettere in un'altra sezione prima del footer -->
-        <h3>Photos</h3>
-        <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg
-        " alt="bridge-panoramic-london-photo">
-        <img src="https://imgc.allpostersimages.com/img/posters/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg?artPerspective=n
-        " alt="evening-bridge-thames">
+        <!-- to-do section -->
+        <section class="todo">
+            <h3>Things to Do</h3>
+            <ul>
+                <li>Visit Tower of London &cross;</li>
+                <li>Visit Greenwich &check;</li>
+                <li>Listening to buskers in Covent Garden &check;</li>
+                <li>Snacking on British Fish & Chips &cross;</li>
+            </ul>
         </section>
+        <!-- /to-do section -->
+
+        <!-- info section -->
+        <section class="info">
+            <h3>Information</h3>
+            <ol>
+                <li>
+                    Emergency Numbers
+                    <ul>
+                        <li><strong>999</strong> - London Ambulance Service</li>
+                        <li><strong>101</strong> - Metropolitan Police</li>
+                        <li><strong>111</strong> - NHS Emergency Medical Care</li>
+                    </ul>
+                </li>
+                <li>
+                    Hotel
+                    <ul>
+                        <li><strong>Hotel's Name:</strong> Buckingham Palace</li>
+                        <li><strong>Hotel Address:</strong> Westminster, London SW1A 1AA, UK</li>
+                    </ul>
+                </li>
+                <li>
+                    Flight Information
+                    <ul>
+                        <li><strong>Outward Flight:</strong> YI234X at 9:30 AM from MXP</li>
+                        <li><strong>Return Flight:</strong> YI236X at 6:30 PM from LHR</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+        <!-- /info section -->
+
+        <!-- photos section -->
+        <section class="photos">
+            <h3>Photos</h3>
+            <div class="photos-wrapper">
+                <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg"
+                    alt="Bridge panoramic London photo">
+                <img src="https://imgc.allpostersimages.com/img/posters/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg?artPerspective=n"
+                    alt="Evening bridge Thames">   
+            </div>
+            
+        </section>
+        <!-- /photos section -->
     </main>
-    <!-- /main     -->
+    <!-- /main -->
 
     <!-- footer -->
-    <footer>
-    <h6> Esercizio di Serena</h6>
+    <footer class="footer">
+        <p>&copy; 2024 London Tours. All rights reserved.</p>
     </footer>
     <!-- /footer -->
 </body>
+
 </html>
